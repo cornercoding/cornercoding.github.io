@@ -1,60 +1,552 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
-    <title>Dhrubajyoti weds Piyali</title>
-    <style type="text/css" media="screen">
-      body {
-        background-color: #f1f1f1;
-        margin: 0;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      }
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Dhrubajyoti Weds Piyali</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-      .container { margin: 50px auto 40px auto; width: 600px; text-align: center; }
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-      a { color: #4183c4; text-decoration: none; }
-      a:hover { text-decoration: underline; }
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
 
-      h1 { width: 800px; position:relative; left: -100px; letter-spacing: -1px; line-height: 60px; font-size: 60px; font-weight: 100; margin: 0px 0 50px 0; text-shadow: 0 1px 0 #fff; }
-      p { color: rgba(0, 0, 0, 0.5); margin: 20px 0; line-height: 1.6; }
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet">
 
-      ul { list-style: none; margin: 25px 0; padding: 0; }
-      li { display: table-cell; font-weight: bold; width: 1%; }
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Simple Line Icons -->
+	<link rel="stylesheet" href="css/simple-line-icons.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Magnific popup  -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
 
-      .logo { display: inline-block; margin-top: 35px; }
-      .logo-img-2x { display: none; }
-      @media
-      only screen and (-webkit-min-device-pixel-ratio: 2),
-      only screen and (   min--moz-device-pixel-ratio: 2),
-      only screen and (     -o-min-device-pixel-ratio: 2/1),
-      only screen and (        min-device-pixel-ratio: 2),
-      only screen and (                min-resolution: 192dpi),
-      only screen and (                min-resolution: 2dppx) {
-        .logo-img-1x { display: none; }
-        .logo-img-2x { display: inline-block; }
-      }
+	<link rel="stylesheet" href="css/style.css">
 
-      #suggestions {
-        margin-top: 35px;
-        color: #ccc;
-      }
-      #suggestions a {
-        color: #666666;
-        font-weight: 200;
-        font-size: 14px;
-        margin: 0 10px;
-      }
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
 
-    </style>
-  </head>
-  <body>
+	<style>
+	@media (max-width: 500px ) {
+		.slider-1 {
+			background-image: url('images/cover_bg_1_mobile.jpg');
+		}
+		.countdown-slide {
+	     background-image: url('images/cover_bg_countdown_mobile.jpg');
+		}
 
-    <div class="container">
+		#qbootstrap-testimonials {
+			background-color: #ad9393;
+		}
+	}
+	@media (min-width: 501px ) {
+		.slider-1 {
+			background-image: url('images/cover_bg_3.jpg');
+		}
+		.countdown-slide {
+	     background-image: url('images/cover_bg_countdown.jpg');
+		}
+		#qbootstrap-testimonials {
+			background-image: url('images/cover_bg_messages.jpg');
+		}
+	}
+	</style>
 
-      <h1>COMMING SOON</h1>
-      <p><strong>People are weird. When we find someone with weirdness that is compatible with ours, we team up and call it love.
+</head>
 
-– Dr. Seuss</strong></p>
-    </div>
-  </body>
+<body>
+	<audio controls autoplay hidden>
+  <source src="sound/audio.mp3" type="audio/mpeg">
+</audio>
+	<header role="banner" id="qbootstrap-header">
+		<div class="container">
+			<!-- <div class="row"> -->
+			<nav class="navbar navbar-default">
+				<div class="navbar-header">
+					<!-- Mobile Toggle Menu Button -->
+					<a href="#" class="js-qbootstrap-nav-toggle qbootstrap-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+					<a class="navbar-brand" href="index.html">Wedding</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
+						<li><a href="#greetings" data-nav-section="greetings"><span>Greetings</span></a></li>
+						<li><a href="#People" data-nav-section="People"><span>People</span></a></li>
+						<li><a href="#" data-nav-section="when-where"><span>When &amp; Where</span></a></li>
+						<li><a href="#" data-nav-section="rsvp"><span>RSVP</span></a></li>
+						<li><a href="#" data-nav-section="gallery"><span>Gallery</span></a></li>
+					</ul>
+				</div>
+			</nav>
+			<!-- </div> -->
+		</div>
+	</header>
+
+	<aside id="qbootstrap-slider-hero" data-section="home">
+		<div class="flexslider">
+			<ul class="slides">
+				<li class="slider-1">
+					<div class="overlay"></div>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 text-center slider-text">
+								<div class="slider-text-inner">
+									<h1 class="holder"><span>The Wedding of</span></h1>
+									<h1>Dhrubajyoti &amp; Piyali</h1>
+									<h2>Welcome to our wedding website! Thank you so much for visiting! This is the place you'll find every piece of information you will need regarding our wedding celebration.</h2>
+									<p class="date"><span>19.11.2018</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li style="background-image: url(images/cover_bg_2.jpg);">
+					<div class="overlay"></div>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 text-center slider-text">
+								<div class="slider-text-inner">
+									<h1 class="holder"><span>Welcome to</span></h1>
+									<h1>Our Story</h1>
+									<h2>Time has no barrier, The journey began in 2010 as a friendship, a friendship that meant everything,
+Slowly with time, this bond grew stronger and we fell in love with each other. And now we are getting married in the next few days.
+A step to a new journey with a promise of being together forever.</h2>
+									<p class="date"><span>19.11.2018</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li style="background-image: url(images/cover_bg_1.jpg);">
+					<div class="overlay"></div>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 text-center slider-text">
+								<div class="slider-text-inner">
+									<h1>Love is an endless mystery, for it has nothing else to explain it</h1>
+									<h2>- রবীন্দ্রনাথ ঠাকুর</h2>
+									<p class="date"><span>19.11.2018</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</aside>
+	<div id="qbootstrap-couple" class="qbootstrap-section-gray">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 animate-box">
+					<div class="col-md-12 text-center section-heading svg-sm colored">
+						<img src="images/flaticon/svg/005-two.svg" class="svg" alt="Failed to load images">
+						<h2>Are Getting Married</h2>
+						<p>After a long journey of friendship and love, with all the sweet memories we are tying the knot, a promise to be together forever.</p>
+						<p><strong>on Nov 19, 2018 &mdash; Agartala, Tripura</strong></p>
+					</div>
+				</div>
+			</div>
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="col-md-5 col-sm-5 col-xs-5 nopadding">
+						<img src="images/bride.jpg" class="img-responsive" alt="Failed to load images">
+						<h3>Piyali Nath</h3>
+						<span>Bride</span>
+					</div>
+					<div class="col-md-2 col-sm-2 col-xs-2 nopadding">
+						<h2 class="amp-center"><img src="images/flaticon/svg/003-luxury.svg" class="svg img-responsive" alt="Failed to load images"></h2></div>
+					<div class="col-md-5 col-sm-5 col-xs-5 nopadding">
+						<img src="images/groom.jpg" class="img-responsive" alt="Failed to load images">
+						<h3>Dhrubajyoti Bhattacharjee</h3>
+						<span>Groom</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="qbootstrap-countdown" data-stellar-background-ratio="0.5" class = "countdown-slide" data-section="wedding-day">
+		<div class="overlay"></div>
+		<div class="display-over">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-12 section-heading text-center svg-sm colored">
+						<img src="images/flaticon/svg/006-flower-bell-outline-design-variant-with-vines-and-leaves.svg" class="svg" alt="Failed to load images">
+						<h2 class="">The Wedding Day</h2>
+						<span class="datewed">Monday, Nov. 19, 2018</span>
+					</div>
+				</div>
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center">
+						<p class="countdown">
+							<span id="days"></span>
+							<span id="hours"></span>
+							<span id="minutes"></span>
+							<span id="seconds"></span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="qbootstrap-testimonials" class="qbootstrap-greetings" data-section="greetings" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-12 section-heading text-center svg-sm colored">
+					<img src="images/flaticon/svg/006-flower-bell-outline-design-variant-with-vines-and-leaves.svg" class="svg" alt="Failed to load images">
+					<h2 class="">Sweet Messages</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 animate-box">
+					<div class="box-testimony ">
+						<blockquote>
+							<span class="quote"><span><i class="icon-quote-left"></i></span></span>
+							<p>&ldquo;No matter how absurd a combination may seem at first, sometimes it can create magic. Maybe a few years back you yourselves might not have seen this coming but at some point, we all knew that this is meant to be. I have known both of you
+								individually and as a couple. Both ways it was a pleasure knowing you. Thanks for making me a part of your life. Wish you all the best for your new life. May God give u all the happiness in life...&rdquo;</p>
+						</blockquote>
+						<p class="author">Shreeyasee Datta</p>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="box-testimony ">
+						<blockquote>
+							<span class="quote"><span><i class="icon-quote-left"></i></span></span>
+							<p>&ldquo;অনেক অনেক শুভেচ্ছা ও আশীর্বাদ তোমাদের ভবিষ্যত জীবনের জন্য... তোমাদের বিবাহিত জীবন আনন্দে ভরা থাকুক সবসময়,খুব ভালো থেকো পিয়ালী ও ধ্রুব.... অনেক অনেক ভালোবাসা দিদি ও দাদাভাই এর তরফ থেকে...
+								&rdquo;</p>
+						</blockquote>
+						<p class="author">Rupali Bhattacharjee & Kishore Bhattacharjee</p>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="box-testimony ">
+						<blockquote>
+							<span class="quote"><span><i class="icon-quote-left"></i></span></span>
+							<p>&ldquo;We wish all your dreams come true. Congratulations ধ্রুব & পিয়ালী। we wish you receive আনন্দ r ভালোবাসা all through. May you experience moments of joy and happiness with the feelings so fresh and new...
+							With অনেক  অনেক  আশীর্বাদ  ও ভালোবাসা  বনু r ছোড়দাভাই ar তরফ থেকে।&rdquo;</p>
+						</blockquote>
+						<p class="author">Mitali Chakraborty & Santanu Chakraborty</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="qbootstrap-people" data-section="people">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="col-md-12 text-center section-heading svg-sm colored">
+						<img src="images/flaticon/svg/005-two.svg" class="svg" alt="Failed to load images">
+						<h2>The Groomsman</h2>
+						<div class="row">
+						<div class="col-md-10 col-md-offset-1 subtext  ">
+							<h3>The strong bond of friendship is not always a balanced equation, friendship is not always about giving and taking in equal shares.<br>
+							Instead, friendship is grounded in a feeling that you know exactly who will be there for you when you need them.</h3>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="row row-bottom-padded-lg">
+				<div class="col-md-4 col-md-offset-4 text-center animate-box">
+					<div class="groom-men">
+						<img src="images/groom-men-1.jpg" class="img-responsive" alt="Failed to load images">
+						<h3>Diptesh Chanda</h3>
+					</div>
+				</div>
+
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="col-md-12 text-center section-heading svg-sm colored">
+						<img src="images/flaticon/svg/005-two.svg" class="svg" alt="Failed to load images">
+						<h2>The Bridesmaid</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 text-center animate-box">
+					<div class="groom-men">
+						<img src="images/bridesmaid-1.jpg" class="img-responsive" alt="Failed to load images">
+						<h3>Sohini Das</h3>
+					</div>
+				</div>
+				<div class="col-md-4 text-center animate-box">
+					<div class="groom-men">
+						<img src="images/bridesmaid-2.jpg" class="img-responsive" alt="Failed to load images">
+						<h3>Shreeyasee Dutta</h3>
+					</div>
+				</div>
+				<div class="col-md-4 text-center animate-box">
+					<div class="groom-men">
+						<img src="images/bridesmaid-3.jpg" class="img-responsive" alt="Failed to load images">
+						<h3>Kritika Debnath</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="qbootstrap-when-where" data-section="when-where">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="col-md-12 text-center section-heading svg-sm colored">
+						<img src="images/flaticon/svg/005-two.svg" class="svg" alt="Failed to load images">
+						<h2>Ceremony &amp; Party</h2>
+						<div class="row">
+							<div class="col-md-10 col-md-offset-1 subtext">
+								<h3>খেলাঘর বাঁধতে লেগেছি আমার মনের ভিতরে।
+                    কত রাত তাই তো জেগেছি বলব কী তোরে॥
+                               <br>
+                   প্রভাতে পথিক ডেকে যায়, অবসর পাই নে আমি হায়--
+                     বাহিরের খেলায় ডাকে সে, যাব কী ক'রে॥
+										           <br>
+                      যা আমার সবার হেলাফেলা যাচ্ছে ছড়াছড়ি
+                    পুরোনো ভাঙা দিনের ঢেলা, তাই দিয়ে ঘর গড়ি।
+                 যে আমার নতুন খেলার জন তারি এই খেলার সিংহাসন,
+                ভাঙারে জোড়া দেবে সে কিসের মন্তরে॥
+							</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row row-bottom-padded-md">
+				<div class="col-md-6 text-center animate-box">
+					<div class="wedding-events">
+						<div class="ceremony-bg" style="background-image: url(images/wed-ceremony.jpg);"></div>
+						<div class="desc">
+							<h3>Wedding Ceremony</h3>
+							<div class="row">
+								<div class="col-md-2 col-md-push-5">
+									<div class="icon-tip">
+										<span class="icon"><i class="icon-heart-o"></i></span>
+									</div>
+								</div>
+								<div class="col-md-5 col-md-pull-1">
+									<div class="date">
+										<i class="icon-calendar"></i>
+										<span>Monday</span>
+										<span>19 Nov. 2018</span>
+									</div>
+								</div>
+								<div class="col-md-5 col-md-pull-1">
+									<div class="date">
+										<i class="icon-clock2"></i>
+										<span>5:00 PM</span>
+										<span>00:00 AM</span>
+									</div>
+								</div>
+							</div>
+							<p>Rajarshi Hotel, Kunjaban, Agartala</p>
+							<div class="gmap_canvas">
+								<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=rajarshi%20hotel%20agartala&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+								 </iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 text-center animate-box">
+					<div class="wedding-events">
+						<div class="ceremony-bg" style="background-image: url(images/wed-party.jpg);"></div>
+						<div class="desc">
+							<h3>Reception</h3>
+							<div class="row">
+								<div class="col-md-2 col-md-push-5">
+									<div class="icon-tip">
+										<span class="icon"><i class="icon-heart-o"></i></span>
+									</div>
+								</div>
+								<div class="col-md-5 col-md-pull-1">
+									<div class="date">
+										<i class="icon-calendar"></i>
+										<span>Thursday</span>
+										<span>22 Nov. 2018</span>
+									</div>
+								</div>
+								<div class="col-md-5 col-md-pull-1">
+									<div class="date">
+										<i class="icon-clock2"></i>
+										<span>5:00 PM</span>
+										<span>00:00 AM</span>
+									</div>
+								</div>
+							</div>
+							<p>Santi Bhavan, Bhati Abhoynagar Agartala, West Tripura</p>
+							<div class="gmap_canvas">
+								<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Bhati%20Abhoynagar&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+								 </iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div id="map" class="qbootstrap-map">
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div id="qbootstrap-started" class="qbootstrap-bg" data-section="rsvp" data-stellar-background-ratio="0.5" style="background-image: url(images/cover_bg_1.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="col-md-12 text-center section-heading svg-sm colored">
+						<img src="images/flaticon/svg/005-two.svg" class="svg" alt="Failed to load images">
+						<h2>You Are Invited</h2>
+						<div class="row">
+							<div class="col-md-10 col-md-offset-1 subtext">
+								<h3>Together with our families, we Dhrubajyoti Bhattacharjee and Piyali Nath
+                    invite you to be a part of our marriage on Monday, November 19, 2018 at six o’clock.
+                  <br>A reception to follow on 22 November, 2018 at five o’clock.
+                </h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row animate-box">
+				<div class="col-md-10 col-md-offset-4">
+					<div class="col-md-5 col-sm-1">
+						<a href="https://docs.google.com/forms/d/e/1FAIpQLScyGqKNzmvw0EELJ_Zmx1bJ2Lyho-Yy-XejIli5F6_S60p3xA/viewform?usp=pp_url" target="_blank" class="btn btn-default btn-block">Leave us a message</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="qbootstrap-gallery" data-section="gallery">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="col-md-12 text-center section-heading svg-sm colored">
+						<img src="images/flaticon/svg/005-two.svg" class="svg" alt="Failed to load images">
+						<h2>Our Selfie Photos</h2>
+						<div class="row">
+							<div class="col-md-10 col-md-offset-1 subtext">
+								<h3>People are weird. When we find someone with weirdness that is compatible with ours, we team up and call it love.</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-3 col-sm-6">
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup image-popup" href="images/gallery-1.jpg"><img src="images/gallery-1.jpg" class="img-responsive" alt="Failed to load images"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery-10.jpg"><img src="images/gallery-10.jpg" class="img-responsive" alt="Failed to load images"></a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery-6.jpg"><img src="images/gallery-6.jpg" class="img-responsive" alt="Failed to load images"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery-2.jpg"><img src="images/gallery-2.jpg" class="img-responsive" alt="Failed to load images"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery-5.jpg"><img src="images/gallery-5.jpg" class="img-responsive" alt="Failed to load images"></a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery-7.jpg"><img src="images/gallery-7.jpg" class="img-responsive" alt="Failed to load images"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery-3.jpg"><img src="images/gallery-3.jpg" class="img-responsive" alt="Failed to load images"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery-4.jpg"><img src="images/gallery-4.jpg" class="img-responsive" alt="Failed to load images"></a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery-8.jpg"><img src="images/gallery-8.jpg" class="img-responsive" alt="Failed to load images"></a>
+					</div>
+					<div class="gallery animate-box">
+						<a class="gallery-img image-popup" href="images/gallery-9.jpg"><img src="images/gallery-9.jpg" class="img-responsive" alt="Failed to load images"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer id="footer" role="contentinfo">
+		<div class="container">
+			<div class="row row-bottom-padded-sm">
+				<div class="col-md-12">
+					<p class="copyright text-center">&copy; 2017 <a href="http://dhrubaandpiyali.com">dhrubaandpiyali.com</a>. All Rights Reserved.</p>
+				</div>
+			</div>
+		</div>
+		<div id="player">
+</div>
+	</footer>
+
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- YTPlayer -->
+	<script src="js/jquery.mb.YTPlayer.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Main JS (Do not remove) -->
+	<script src="js/main.js"></script>
+
+</body>
+
 </html>
